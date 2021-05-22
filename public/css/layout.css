@@ -276,8 +276,10 @@ ul#nav li.current a { color: #7e685a; }
 #about .profile-pic {
    position: relative;
    width: 140px;
-   height: 151px;
+   width: 270px;
+   height: 217px;
    border-radius: 100%;
+   left: -78px;
 }
 #about .contact-details { 
    width: 41.66667%; 
@@ -321,12 +323,15 @@ ul#nav li.current a { color: #7e685a; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #f2f2f2;
+   /* background: #f2f2f2; */
    /* background-image: linear-gradient(to bottom left, black, #47352F); */
+   background: #fff url(../images/texture1.jpg) no-repeat top center;
+   background-size: cover;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
    color: #47352F;
+   /* opacity: 0.2; */
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
