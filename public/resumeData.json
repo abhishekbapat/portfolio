@@ -37,6 +37,11 @@
         "name": "github",
         "url": "https://github.com/abhishekbapat/",
         "className": "fa fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "https://github.com/abhishekbapat/",
+        "className": "fa fa-twitter"
       }
     ]
   },

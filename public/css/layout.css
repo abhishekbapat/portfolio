@@ -33,6 +33,7 @@ body {
    /* background: linear-gradient(to right, #cb2d3e 0%, #ef473a 100%); */
    /* background-image: linear-gradient(to left top,#000, #7e685a); */
    background: linear-gradient(to bottom, black 0%,black 5%,#2A272A 5%,#2A272A 100%);
+   /* background:  url(../images/blacktexture1.jpg) repeat top center; */
 
 }
 * { cursor: default; }
@@ -194,9 +195,9 @@ header .scrolldown a:hover { color: #887177; }
    z-index: 100;
    position: fixed;
    left: 0;
-   top: 100;
-   -webkit-transform: skew(0deg, 10deg);
-  transform: skew(0deg, 10deg);
+   top: 0;
+   /* -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg); */
 }
 .opaque { background-color: #333; }
 
@@ -247,11 +248,7 @@ ul#nav li.current a { color: #7e685a; }
 #about {
    /* background: #fff; */
    background-image: linear-gradient(to bottom, #2A272A,black);
-   /* background-image: linear-gradient(to right bottom,#102235,#BC871E); */
-   /* background-image: linear-gradient(to right bottom, #7e685a, #14191b, #18201e, #20251f, #2d2a21); */
-   /* background-image: linear-gradient(to right bottom,  #402E32, #111214); */
-   /* background-color: #402E32; */
-   /* background-image: linear-gradient(to right bottom, #3d2c2c, #4e3737, #604343, #724f50, #855c5c); */
+   /* background: url(../images/blacktexture1.jpg) no-repeat top center; */
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -275,11 +272,10 @@ ul#nav li.current a { color: #7e685a; }
 }
 #about .profile-pic {
    position: relative;
-   width: 140px;
    width: 270px;
    height: 217px;
-   border-radius: 100%;
-   left: -78px;
+   /* border-radius: 100%; */
+   /* left: -78px; */
 }
 #about .contact-details { 
    width: 41.66667%; 
@@ -312,9 +308,10 @@ ul#nav li.current a { color: #7e685a; }
    /* color: #daad86; */
    text-shadow: 0px 1px 2px rgba(224, 145, 145, 0.5);
 }
-#about .nine.columns.main-col
+#about .main-col
 {
-   background: #cccccc;
+   /* background: #cccccc; */
+   background: #fff url(../images/texture1.jpg) no-repeat top center;
    padding-top: 2em;
 }
 
@@ -325,7 +322,7 @@ ul#nav li.current a { color: #7e685a; }
 #resume {
    /* background: #f2f2f2; */
    /* background-image: linear-gradient(to bottom left, black, #47352F); */
-   background: #fff url(../images/texture1.jpg) no-repeat top center;
+   background: #fff url(../images/texture2.jpg) no-repeat top center;
    background-size: cover;
    padding-top: 90px;
    padding-bottom: 72px;
@@ -530,9 +527,13 @@ ul#nav li.current a { color: #7e685a; }
 
 #portfolio {
    background: black;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding: 2em;
+   text-align: center;
+   display: flex;
+      flex-direction: column;
+      justify-content: space-around;  
 }
+
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
@@ -542,12 +543,57 @@ ul#nav li.current a { color: #7e685a; }
    color: #95A3A3;
 }
 
+/*arrows */
+.prev, .next {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   height: 100%;
+   margin: 0 auto;
+   cursor: pointer;
+   color: black;
+   transition: 0.6s ease;
+ }
+ .next {
+   margin-left: 5px;
+ }
+ .prev {
+   margin-right: 5px;
+ }
+ .prev:hover, .next:hover {
+   color: white;
+   height: 100%;
+   background-color: rgba(0,0,0,0.8);
+ }
+
+ .project-container {
+   vertical-align: middle;
+   display: inline-block;
+   width: 80%;
+   height: 180px;
+   padding: 0 2em 0 2em;
+	box-sizing: border-box;
+	/* -webkit-overflow-scrolling: touch; */
+   overflow-x: hidden;
+	overflow-y: hidden;
+   white-space: nowrap;
+ }
+
+
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+
+.portfolio-item{ display: inline-block; }
+
+/* #portfolio-wrapper .columns { margin-bottom: 36px; } */
 .portfolio-item .item-wrap {
-   background: #fff;
    overflow: hidden;
    position: relative;
+   white-space: normal !important;
+   height: 200px;
+   width: 200px;
+
+  margin: 10px;
+  display: inline-block;
+  /* line-height: 200px; */
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -556,8 +602,13 @@ ul#nav li.current a { color: #7e685a; }
 	transition: all 0.3s ease-in-out;
 }
 .portfolio-item .item-wrap a {
-   display: block;
+   display: inline-block;
    cursor: pointer;
+}
+
+#portfolio button{
+   background: transparent;
+   color: white;
 }
 
 /* overlay */

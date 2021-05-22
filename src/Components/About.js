@@ -9,14 +9,14 @@ class About extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.firstname+" "+this.props.data.lastname;
+      // var name = this.props.data.firstname+" "+this.props.data.lastname;
       var profilepic= "images/"+this.props.data.image;
       var bio = <NewlineText text={this.props.data.bio} />;
       
-      var country = this.props.data.address.country;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
+      // var country = this.props.data.address.country;
+      // var city = this.props.data.address.city;
+      // var state = this.props.data.address.state;
+      // var zip = this.props.data.address.zip;
       //var phone= this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
@@ -26,28 +26,24 @@ class About extends Component {
     return (
       <section id="about">
       <div className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
+         <div className="four columns">
+         <img className="profile-pic"  src={profilepic} alt="Profile Pic" />
          </div>
-         <div className="nine columns main-col">
+         <div className="eight columns main-col">
             <h2>About Me</h2>
 
             <p>{bio}</p>
             <div className="row">
                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>Contact</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{country}<br />
-						         {city} {state}, {zip}
-                   </span><br />
 						   {/* <span>{phone}</span><br /> */}
                      <span class="email">{email}</span>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} target="_blank" rel="noopener noreferrer" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} target="_blank" rel="noopener noreferrer" className="button"><i className="fa fa-download"></i>Resume</a>
                   </p>
                </div>
             </div>

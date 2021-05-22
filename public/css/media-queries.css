@@ -50,8 +50,8 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
+      width: 202px;
+      height: 147px;
       margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
@@ -222,8 +222,8 @@
    -------------------------------------------------------------------- */
    #about .profile-pic { 
       /* display: none;  */
-      width: 109px;
-      height: 101px;
+      width: 207px;
+      height: 129px;
       /* margin-left: -3px; */
       margin-top: -9px;
       float: right;
@@ -240,7 +240,7 @@
       /* background: beige; */
       background: #cccccc;
    }
-   #about .nine.columns.main-col
+   #about .main-col
    {
       background: none;
       padding-top: 1em;
