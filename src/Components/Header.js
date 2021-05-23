@@ -20,24 +20,25 @@ class Header extends Component {
 
       
 
-      <div className="row banner">
-         <div className="banner-text">
-            <h1 className="responsive-headline">I'm <span className="firstname">{firstname}</span> {lastname}.</h1>
-            <h3>I'm a {state} based <span>{occupation}</span>, currently living in {city}, {state}. {description}.</h3>
-            <hr />
-            <ul className="social">
-               {networks}
-            </ul>
-         </div>
-      </div>
+            <div className="row banner">
+               <div className="banner-text">
+                  <h1 className="responsive-headline"><span className="firstname">{firstname}</span> {lastname}.</h1>
+                  <h3><span>{occupation}</span></h3>
+                  <h3>{company}.</h3>
+                  <hr />
+                  <ul className="social">
+                     {networks}
+                  </ul>
+               </div>
+            </div>
 
-      <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-      </p>
+            <p className="scrolldown">
+               <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+            </p>
 
-   </header>
-    );
-  }
+         </header>
+      );
+   }
 }
 
 export default Header;

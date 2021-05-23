@@ -2,16 +2,16 @@
   "main": {
     "firstname": "Abhishek",
     "lastname": "Bapat",
-    "occupation": "Systems Software developer",
+    "occupation": "Graduate Researcher",
+    "company":"Systems Software Research Group, Virginia Tech",
     "description": "At present I am pursuing my Master's degree in Computer Engineering from Virginia Tech",
     "image": "profilepic.jpg",
-    "bio": "A master's in Computer Engineering student at Virginia Tech, I am a technology enthusiast. I strongly believe in the language-agnostic approach and am ready to develop solutions in newer and efficient technologies. \nCurrently, as a part of my master's journey, I am delving deep into computer systems and systems programming - exploring the LLVM compiler and the Linux kernel.\n Having 3+ years of work experience in web/app development, I am proficient in backend development using Node.js, with a knack for frontend development using React. Being involved in projects delivering end to end B2X solutions to customers, I believe in the importance of creating modular, clean, and testable code and can vouch for the efficiency of the Agile methodology. \nPlease feel free to reach out to me using my email-id listed below or any of the linked social sites!",
+    "bio": "Abhishek is a graduate researcher at Systems Software Research Group, Virginia Tech. He is mainly interested in systems software and has worked in the areas of cross architecture application state transformation, libraryOS, Compilers, OS security and Virtualization. \nHaving worked as a software engineer for almost 3 years, Abhishek writes optimized, clean, modular, maintainable and testable code. \nIn his spare cycles, Abhishek likes to indulge in prog music, playing chess and reading. \nFeel free to reach out to him on his email id or the linked social media handles.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "monamidg@gmail.com",
+    "email": "abhishekbapat28@gmail.com",
     "phone": "",
     "home": {
-      "city": "Bengaluru",
-      "state": "Karnataka",
+      "city": "Mumbai",
       "country": "India"
     },
     "address": {
@@ -20,7 +20,7 @@
       "country": "United States",
       "zip": "24061"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "",
     "resumedownload": "https://drive.google.com/file/d/1jGNIpAVkGSpeJKel5AWDKGJ1_YMkOWf8/view?usp=sharing",
     "social": [
       {
@@ -46,19 +46,19 @@
     ]
   },
   "resume": {
-    "skillmessage": "I am an explorer and tinker with a variety of tech, but these are the programming skills which I use most frequently at work/personal projects.",
+    "skillmessage": "The following are the skills Abhishek has gained proficiency in.",
     "education": [
       {
         "school": "Virginia Tech",
         "degree": "Masters in Computer Engineering",
-        "graduated": "2021 - 2022",
+        "graduated": "2021 - 2022(Est)",
         "gpa": "GPA: 4.0/4.0",
         "description": ""
       },
       {
-        "school": "Manipal Institute of Technology",
-        "degree": "B.Tech in Electronics & Communication Engineering",
-        "graduated": "2013 - 2017",
+        "school": "Veermata Jijabai Technological Institute (VJTI)",
+        "degree": "B.Tech in Electrical Engineering",
+        "graduated": "2014 - 2018",
         "description": ""
       }
     ],
@@ -67,36 +67,22 @@
         "company": "Systems Software Research Group, Virginia Tech",
         "title": "Graduate Research Assistant ",
         "years": "May 2021 - Present",
-        "description": "• Currently working on analysing the security of kernel applications using fuzzing tools such as libFuzzer and AFL. \n• Observing the application of fuzzing on large applications in the userspace using checkpoint tools like Criu."
+        "description": "• Currently working on extending the checkpoint-restore functionality for the Linux kernel to provide heterogeneous ISA support. \n• Implemented the multiboot2 protocol for rumpkernels and added UEFI support."
       },
       {
-        "company": "Wipro",
-        "title": "Senior Software Engineer ",
-        "years": "Aug 2017 - Nov 2020",
-        "description": "• Part of the Research & Development team of Communications Business Unit, responsible for developing IPs and Patents for the company. \n • Created software solutions for telecom and IT use-cases as a Full-stack and Blockchain developer which have been showcased at Barcelona in Mobile World Congress 2018, as well as, 2019. \n • Led the backend team for developing the blockchain-based Mobile Number Portability solution, which aimed to eliminate middlemen by decentralizing the porting process using the Hyperledger Fabric platform. \n • Created efficient backend systems by using caching, content management frameworks, optimized REST APIs, and modeling database schemas."
+        "company": "Smokescreen Technologies",
+        "title": "Software Engineer ",
+        "years": "Nov 2019 - Dec 2020",
+        "description": "• Worked on the data collector for ‘Faultline’. ‘Faultline’ uses graph theory to simulate attack paths over millions of nodes and relationships inferred from an environment. Worked on the collector module which fetched information of the environment Active Directory. \n • Wrote the ‘vmagent’. ‘vmagent’ runs on the windows decoys setup in an environment and uses ’ETW’ to detect lateral movement techniques like RDP, PSEXEC, WMI, etc. \n • Wrote the ‘ransomware’ module for the EDR agent called ‘Landmine’. This module detects if a ransomware is running on an endpoint."
+      },
+      {
+        "company": "Deloitte",
+        "title": "Technology Consultant - Cloud Applications Developer ",
+        "years": "Aug 2018 - Oct 2019",
+        "description": "• Developed cloud based compensation management tools. \n • Used SAP ERP and Webi to develop real-time dashboards. \n • Supported various software development initiatives as a member of the Cloud Applications team."
       }
     ],
     "skills": [
-      {
-        "category": "Systems",
-        "name": "LLVM",
-        "level": "50%"
-      },
-      {
-        "category": "Systems",
-        "name": "UEFI",
-        "level": "50%"
-      },
-      {
-        "category": "Systems",
-        "name": "x86 architecture",
-        "level": "50%"
-      },
-      {
-        "category": "Operating Systems",
-        "name": "Linux",
-        "level": "50%"
-      },
       {
         "category": "Programming",
         "name": "C",
@@ -119,99 +105,121 @@
       },
       {
         "category": "Programming",
-        "name": "Javascript",
+        "name": "C#",
         "level": "70%"
       },
       {
-        "category": "Web technologies",
-        "name": "Node.js",
-        "level": "90%"
-      },
-      {
-        "category": "Web technologies",
-        "name": "Express.js",
-        "level": "90%"
-      },
-      {
-        "category": "Databases",
-        "name": "MongoDB",
-        "level": "80%"
-      },
-      {
-        "category": "Databases",
-        "name": "Redis",
-        "level": "80%"
-      },
-      {
-        "category": "Web technologies",
-        "name": "React.js",
-        "level": "50%"
-      },
-      {
-        "category": "Databases",
-        "name": "MySQL",
+        "category": "Programming",
+        "name": "x86 Assembly",
         "level": "70%"
       },
       {
-        "category": "Web technologies",
-        "name": "React Native",
+        "category": "Programming",
+        "name": "Rust",
+        "level": "70%"
+      },
+      {
+        "category": "Scripting",
+        "name": "Shell",
         "level": "50%"
       },
       {
-        "category": "Others",
+        "category": "Scripting",
+        "name": "Bash",
+        "level": "50%"
+      },
+      {
+        "category": "Scripting",
+        "name": "PowerShell",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
         "name": "Git",
         "level": "50%"
       },
       {
-        "category": "Others",
-        "name": "Blockchain",
+        "category": "Competencies",
+        "name": "UEFI",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "Linux Kernel",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "POSIX",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "LLVM",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "FreeRTOS",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "AWS",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "Xen",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "KVM",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "QEMU",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "OS Security",
+        "level": "50%"
+      },
+      {
+        "category": "Competencies",
+        "name": "Datastructures and Algorithms",
         "level": "50%"
       }
     ]
   },
   "portfolio": {
-    "heading": "Check out some of my latest projects.",
+    "heading": "Check out some of Abhishek's latest projects.",
     "projects": [
       {
-        "title": "ISO 9660 File System",
-        "category": "An implementation to perform higher-level operations (reading a file) using the low-level block I/O operations in UEFI. Reads the ISO file, and loads the kernel into memory.",
-        "url": "https://github.com/imanom/Iso-9660-FileSystem",
+        "title": "UEFI Support for rump kernels",
+        "category": "Changing the boot protocol for rumprun to multiboot2 and adding UEFI support.",
+        "url": "https://github.com/abhishekbapat/rumprun-smp",
         "image": "black.jpg"
       },
       {
         "title": "Static Heap Analyzer",
         "category": "An intra-procedural static heap analyzer to detect liveness of heap data, implemented in llvm.",
-        "url": "https://github.com/imanom/StaticHeapAnalyzer",
+        "url": "https://github.com/abhishekbapat/StaticHeapAnalyzer",
         "image": "black.jpg"
       },
       {
-        "title": "Bootloader",
-        "category": "Implemented a basic bootloader with a dedicated kernel and userspace",
-        "url": "https://github.com/imanom/OS-Assignments",
+        "title": "Minimal kernel with UEFI bootloader",
+        "category": "Implemented a UEFI bootloader and a minimal kernel with paging, framebuffer console printing, system calls, page fault interrupt, apic timer and thread local storage.",
+        "url": "https://github.com/abhishekbapat/OSAndVirtualizationAssignments",
         "image": "black.jpg"
       },
       {
-        "title": "LLVM optimizations",
-        "category": "Implemented several LLVM optimization and transformation passes.",
-        "url": "https://github.com/imanom/CompilerOptimizationAssignments",
-        "image": "black.jpg"
-      },
-      {
-        "title": "LLVM optimizations",
-        "category": "Implemented several LLVM optimization and transformation passes.",
-        "url": "https://github.com/imanom/CompilerOptimizationAssignments",
-        "image": "black.jpg"
-      },
-      {
-        "title": "LLVM optimizations",
-        "category": "Implemented several LLVM optimization and transformation passes.",
-        "url": "https://github.com/imanom/CompilerOptimizationAssignments",
-        "image": "black.jpg"
-      },
-      {
-        "title": "LLVM optimizations",
-        "category": "Implemented several LLVM optimization and transformation passes.",
-        "url": "https://github.com/imanom/CompilerOptimizationAssignments",
+        "title": "Compiler Optimizations",
+        "category": "Implemented classic compiler optimizations like Loop Invariant Code Motion, Dead Code Elimination, etc.",
+        "url": "https://github.com/abhishekbapat/CompilerOptimizationAssignments",
         "image": "black.jpg"
       }
     ]
