@@ -324,8 +324,8 @@ ul#nav li.current a { color: #7e685a; }
    /* background-image: linear-gradient(to bottom left, black, #47352F); */
    background: #fff url(../images/texture2.jpg) no-repeat top center;
    background-size: cover;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   padding-top: 70px;
+   padding-bottom: 70px;
    overflow: hidden;
    color: #47352F;
    /* opacity: 0.2; */
@@ -352,9 +352,12 @@ ul#nav li.current a { color: #7e685a; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   /* margin-bottom: 48px; */
+   padding-bottom: 10px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.521);
+}
+.skill{
+   padding-top: 25px;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -569,15 +572,18 @@ ul#nav li.current a { color: #7e685a; }
    vertical-align: middle;
    display: inline-block;
    width: 80%;
-   height: 180px;
+   height: fit-content;
    padding: 0 2em 0 2em;
 	box-sizing: border-box;
-	/* -webkit-overflow-scrolling: touch; */
-   overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+   overflow-x: scroll;
 	overflow-y: hidden;
    white-space: nowrap;
  }
-
+ ::-webkit-scrollbar {
+   width: 0;  /* Remove scrollbar space */
+   background: transparent;  /* Optional: just make scrollbar invisible */
+}
 
 /* Portfolio Content */
 
