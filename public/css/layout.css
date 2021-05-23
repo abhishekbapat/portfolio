@@ -352,9 +352,8 @@ ul#nav li.current a { color: #7e685a; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
-   /* margin-bottom: 48px; */
    padding-bottom: 10px;
-   border-bottom: 1px solid rgba(0, 0, 0, 0.521);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.53);
 }
 .skill{
    padding-top: 25px;
