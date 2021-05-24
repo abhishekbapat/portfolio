@@ -33,6 +33,7 @@ body {
    /* background: linear-gradient(to right, #cb2d3e 0%, #ef473a 100%); */
    /* background-image: linear-gradient(to left top,#000, #7e685a); */
    background: linear-gradient(to bottom, black 0%,black 5%,#2A272A 5%,#2A272A 100%);
+   
    /* background:  url(../images/blacktexture1.jpg) repeat top center; */
 
 }
@@ -578,6 +579,9 @@ ul#nav li.current a { color: #7e685a; }
    overflow-x: scroll;
 	overflow-y: hidden;
    white-space: nowrap;
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+   overflow: -moz-scrollbars-none;
  }
  ::-webkit-scrollbar {
    width: 0;  /* Remove scrollbar space */
