@@ -51,7 +51,7 @@ class App extends Component {
         <title>Abhishek Bapat</title>
         <meta charset="utf-8"/>
         <meta name="robots" content="index,follow"/>
-        <meta name="description" content="Hi, this is Abhishek Bapat's website." />
+        <meta name="description" content="Abhishek Bapat's website." />
         <meta name="keywords" content="abhishek,bapat,portfolio, abapat" />
         
         </Helmet>

@@ -99,6 +99,7 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
+
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -185,7 +186,8 @@
    }  
    body { 
    
-      background: linear-gradient(to bottom, black 0%,black 5%,#cccccc 5%,#cccccc 100%);
+      /* background: linear-gradient(to bottom, black 0%,black 5%,#cccccc 5%,#cccccc 100%); */
+      background: linear-gradient(to bottom, black 0%,black 5%,#cccccc 5%,#cccccc 25%, #2A272A 25%,#2A272A 100%);
    
    }
 
@@ -255,6 +257,13 @@
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
+   .work{
+      padding-top: 25px;
+   }
+
+   .work .main-col{
+      margin-top: -2em;
+   }
       
    .bars { width: 100%; }
 
