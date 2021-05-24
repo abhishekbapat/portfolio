@@ -32,7 +32,7 @@ body {
    /* background: #fff; */
    /* background: linear-gradient(to right, #cb2d3e 0%, #ef473a 100%); */
    /* background-image: linear-gradient(to left top,#000, #7e685a); */
-   background: linear-gradient(to bottom, black 0%,black 5%,#2A272A 5%,#2A272A 100%);
+   background: linear-gradient(to bottom, black 0%,black 5%,#2A272A 5%,#2A272A 60%, black 60%, black 100%);
    
    /* background:  url(../images/blacktexture1.jpg) repeat top center; */
 
